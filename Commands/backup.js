@@ -382,12 +382,12 @@ __**Commands**__
           )
           .setDescription(
             `
-              ***x!backup create ***      Create a backup
-              ***x!backup delete ***       Delete one of your backups
-              ***x!backup info ***       Get information about a backup
-              ***x!backup list   ***       Get a list of your backups
-              ***x!backup load  ***        Load a backup
-              ***x!backup purge  ***       Delete all your backups`
+***x!backup create ***      Create a backup
+***x!backup delete ***       Delete one of your backups
+***x!backup info ***       Get information about a backup
+***x!backup list   ***       Get a list of your backups
+***x!backup load  ***        Load a backup
+***x!backup purge  ***       Delete all your backups`
           )
           .addBlankField()
           .setFooter(
