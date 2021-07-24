@@ -374,21 +374,20 @@ __This cannot be undone!__`);
       if (!args[1]) {
         const embed = new RichEmbed()
           .setTitle(
-            `**x!backup**
-
-Create & load backups of your servers
+            `**x!backup
+Create & load private backups of your servers
 
 __**Commands**__
 `
           )
           .setDescription(
             `
-                x!backup create        Create a backup
-                x!backup delete        Delete one of your backups
-                x!backup info          Get information about a backup
-                x!backup list          Get a list of your backups
-                x!backup load          Load a backup
-                x!backup purge         Delete all your backups`
+              ***x!backup create ***      Create a backup
+              ***x!backup delete ***       Delete one of your backups
+              ***x!backup info ***       Get information about a backup
+              ***x!backup list   ***       Get a list of your backups
+              ***x!backup load  ***        Load a backup
+              ***x!backup purge  ***       Delete all your backups`
           )
           .addBlankField()
           .setFooter(
