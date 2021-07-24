@@ -33,7 +33,7 @@ module.exports = class backup {
         .setDescription(
           `This command **can't be used** by a **Bot**
             
-            [Support](https://discord.club/discord)`
+            [Support](https://discord.gg/ybntaqEneK)`
         )
         .setColor("#a11616");
 
@@ -57,7 +57,7 @@ module.exports = class backup {
                 .setDescription(
                   `The Xenon Role Is Not The Highest Role In The Server , This May Cause Some Errors When Loading The Backup. !
                             
-                            [Support](https://discord.club/discord)`
+                            [Support](https://discord.gg/ybntaqEneK)`
                 )
                 .setColor("#a11616");
               return message.channel.send(havnthighest);
@@ -151,7 +151,7 @@ module.exports = class backup {
           .setTitle(`${error}  Error`)
           .setDescription(
             `You forgot to define the argument backup_id. Use x!help backup load for more information.
-[Support](https://discord.club/discord)`
+[Support](https://discord.gg/ybntaqEneK)`
           )
           .setColor("#a11616");
         if (!code) return message.channel.send(errorEmbed);
@@ -161,7 +161,7 @@ module.exports = class backup {
           .setTitle(`You have no backup with the id ${code}.`)
           .setDescription(
             `
-[Support](https://discord.club/discord)`
+[Support](https://discord.gg/ybntaqEneK)`
           )
           .setColor("#a11616");
         if (!backups[message.author.id][code])
@@ -187,7 +187,7 @@ module.exports = class backup {
         let cantfindbackup = new RichEmbed()
           .setTitle(`${error}  Error`)
           .setTitle(`You have no backup with the id ${code}.`)
-          .setDescription("[Support](https://discord.club/discord)")
+          .setDescription("[Support](https://discord.gg/ybntaqEneK)")
           .setColor("#a11616");
         if (!backups[message.author.id][code])
           return message.channel.send(cantfindbackup);
@@ -250,7 +250,7 @@ module.exports = class backup {
           .setTitle(`${error}  Error`)
           .setDescription(
             `You forgot to define the argument **backup_id**. Use \`x!help backup info\` for more information   
-                    [Support](https://discord.club/discord)`
+                    [Support](https://discord.gg/ybntaqEneK)`
           )
           .setColor("#a11616");
         if (!id) return message.channel.send(MissingbackupinfoEmbed);
@@ -259,7 +259,7 @@ module.exports = class backup {
           .setTitle(`${error}  Error`)
           .setDescription(
             `You have **no backup** with the id \`${id}\`.
-                "[Support](https://discord.club/discord)`
+                "[Support](https://discord.gg/ybntaqEneK)`
           )
           .setColor("#a11616");
         if (!backups[message.author.id][id])
