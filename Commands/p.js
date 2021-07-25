@@ -1,7 +1,7 @@
 Am coda abet const discordButtons = require("discord-buttons-plugin");
 const buttonClient = new discordButtons(client);
 client.on("message", message => {
-  if (message.content === "!ping") {
+  if (message.content === "!p") {
     const embed = new Discord.MessageEmbed()
       .setTitle("بۆ پشاندانی پینگی بۆتەکەت کلیک بکە")
       .setColor("GOLD");
