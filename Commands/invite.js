@@ -17,6 +17,9 @@ module.exports = class invite {
 [Xenon](https://discordapp.com/api/oauth2/authorize?client_id=524652984425250847&permissions=8&scope=bot) Pro Use \`x!pro\` to get more information.
 [Xenon Turbo](https://discordapp.com/api/oauth2/authorize?client_id=598534174894194719&permissions=8&scope=bot)`)
             .setColor("#5DBCD2")
+            .setLabel("k")
+            .setStyle("green")
+            .setID("yes")
             message.channel.send(inviteEmbed);
             })
         }catch(e) {
