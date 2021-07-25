@@ -1,4 +1,4 @@
-Am coda abet const discordButtons = require("discord-buttons-plugin");
+const discordButtons = require("discord-buttons-plugin");
 const buttonClient = new discordButtons(client);
 client.on("message", message => {
   if (message.content === "!p") {
