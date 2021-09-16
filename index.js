@@ -2,10 +2,10 @@ const { Client, RichEmbed } = require("discord.js");
 const { CommandHandler } = require("djs-commands");
 const client = new Client({ disableEveryone: true });
 var approx = require('approximate-number');
-const config = require("./config.json");
+const  bot = require("./bot.js");
 const CH = new CommandHandler({
     folder: __dirname + "/Commands/",
-    prefix: config.prefix 
+    prefix: env.prefix 
 });
 
 
